@@ -12,19 +12,21 @@ I define the state variable ![](https://latex.codecogs.com/gif.latex?s_t) as a c
 
 ## Policy network:
 
-Map curren state ![](https://latex.codecogs.com/gif.latex?s_t) to the policy ![](https://latex.codecogs.com/gif.latex?%5Cpi%28%5Ctext%28long%29%7Cs_t%29) and ![](https://latex.codecogs.com/gif.latex?%5Cpi%28%5Ctext%28short%29%7Cs_t%29). A illustration of the overall model structure is shown below.
+The policy network maps the curren state ![](https://latex.codecogs.com/gif.latex?s_t) to the policy ![](https://latex.codecogs.com/gif.latex?%5Cpi%28%5Ctext%28long%29%7Cs_t%29) and ![](https://latex.codecogs.com/gif.latex?%5Cpi%28%5Ctext%28short%29%7Cs_t%29). An illustration of the overall model structure is shown below.
 
 ![](img/model.png)
 
 ## Usage:
 
-    For the proposed policy gradient algorithm, please see the jupyter notebook in the ./PG directory.
+For the proposed policy gradient algorithm, please see the jupyter notebook in the ./PG directory.
 
-    For the Q learning algorithm baseline, please see the jupyter notebook in the ./tabular-Q directory.
+For the Q learning algorithm baseline, please see the jupyter notebook in the ./tabular-Q directory.
+
+**NOTE**: this algorithm still has some robustness issues. To be solved latter.
 
 ## Test result:
 
-Blow are the cumulative profite by using the proposed policy gradient algorithm (left) and the Q learning algorithm (right) respectively.
+Below are the cumulative profits by using the proposed policy gradient algorithm (left) and the Q learning algorithm (right) respectively.
 
 ![Propsed policy gradient algorithm](img/pg_100.png)
 ![Q learning algorithm](img/Q_100.png)
