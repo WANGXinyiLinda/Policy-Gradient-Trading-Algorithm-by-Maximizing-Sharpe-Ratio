@@ -8,19 +8,19 @@ This is the sencod half of my capstone project and the first half can be seen [h
 
 ## State:
 
-I define the state variable $s_t$ as a concatenation of the five-tuple discribing the current market $x_t$ and the previous hidden state from LSTM $h_{t-1}$. For more details, see section 2.2 in my final report.
+I define the state variable ![](https://latex.codecogs.com/gif.latex?s_t) as a concatenation of the five-tuple discribing the current market ![](https://latex.codecogs.com/gif.latex?x_t) and the previous hidden state from LSTM ![](https://latex.codecogs.com/gif.latex?h_%7Bt-1%7D). For more details, see section 2.2 in my final report.
 
 ## Policy network:
 
-Map curren state $s_t$ to the policy ![](https://latex.codecogs.com/gif.latex?%5Cpi%28%5Ctext%28long%29%7Cs_t%29) and $\pi(\text(short)|s_t)$. A illustration of the overall model structure is shown below.
+Map curren state ![](https://latex.codecogs.com/gif.latex?s_t) to the policy ![](https://latex.codecogs.com/gif.latex?%5Cpi%28%5Ctext%28long%29%7Cs_t%29) and ![](https://latex.codecogs.com/gif.latex?%5Cpi%28%5Ctext%28short%29%7Cs_t%29). A illustration of the overall model structure is shown below.
 
 ![](img/model.png)
 
 ## Usage:
 
-    For the proposed policy gradient algorithm, please see the [jupyter notebook](PG/PG.ipynb) in the ./PG directory.
+    For the proposed policy gradient algorithm, please see the jupyter notebook in the ./PG directory.
 
-    For the Q learning algorithm baseline, please see the [jupyter notebook](tabular-Q/tabular-Q.ipynb) in the ./tabular-Q directory.
+    For the Q learning algorithm baseline, please see the jupyter notebook in the ./tabular-Q directory.
 
 ## Test result:
 
