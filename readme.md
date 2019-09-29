@@ -18,6 +18,8 @@ The policy network maps the curren state ![](https://latex.codecogs.com/gif.late
 
 ## Usage:
 
+This python 3 implementation is mostly based on Keras with a Tensorflow backend. You will also need pandas, numpy and sklearn to handle the data.
+
 For the proposed policy gradient algorithm, please see the jupyter notebook in the ./PG directory.
 
 For the Q learning algorithm baseline, please see the jupyter notebook in the ./tabular-Q directory.
