@@ -24,7 +24,7 @@ Map curren state ![](https://latex.codecogs.com/gif.latex?s_t) to the policy ![]
 
 ## Test result:
 
-Blow are the cumulative profite by using the proposed policy gradient algorithm and the Q learning algorithm respectively.
+Blow are the cumulative profite by using the proposed policy gradient algorithm (left) and the Q learning algorithm (right) respectively.
 
 ![Propsed policy gradient algorithm](img/pg_100.png)
 ![Q learning algorithm](img/Q_100.png)
